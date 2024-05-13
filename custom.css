@@ -1,1 +1,27 @@
+/* Add background color to the login page */
+[role=main] .shopify-section--main-customers-login {
+  background-color: rgba(251, 248, 246, 1);
+}
 
+/* Add background color to the login page */
+.account-nav {
+  background-color: rgba(251, 248, 246, 1);
+}
+
+/* Add button style to Board Finder in the header */
+.header__secondary-nav li:first-child {
+  padding-top: 12px;
+}
+.header__secondary-nav li:last-child {
+  background-color: rgb(var(--button-background));
+  color: rgb(var(--button-text-color));
+  border-radius: var(--rounded-button);
+  --button-background: var(--button-background-primary) /
+    var(--button-background-opacity, 1);
+  --button-text-color: var(--button-text-primary);
+  --button-outline-color: var(--button-background-primary);
+  padding-block-start: var(--spacing-3);
+  padding-block-end: var(--spacing-3);
+  padding-inline-start: var(--spacing-6);
+  padding-inline-end: var(--spacing-6);
+}
