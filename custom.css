@@ -26,6 +26,6 @@
   padding-inline-end: var(--spacing-6);
 } */
 
-.header__secondary-nav li:second-child{
+.header__secondary-nav li:nth-child(even){
   color: #00A341;
 }
