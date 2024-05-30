@@ -26,6 +26,7 @@
   padding-inline-end: var(--spacing-6);
 } */
 
-.header__secondary-nav li:nth-child(even){
+/* Add green color for outlet */
+.header__secondary-nav li:first-child{
   color: #00A341;
 }
