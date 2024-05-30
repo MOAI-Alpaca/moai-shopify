@@ -36,7 +36,3 @@ newElement.textContent = 'Open from Monday through Friday, from 09:00 to 16:00.'
 
 // Insert the new element just before the closing tag of the target element
 targetElement.appendChild(newElement);
-
-$(function(){
-      alert("My First jQuery Test");
-   });
