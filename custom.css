@@ -30,3 +30,8 @@
 .header__secondary-nav li:first-child{
   color: #00A341;
 }
+
+/* Add background color for images */
+.product-gallery__media img {
+  background: linear-gradient(45deg, #fbf8f6, #f4edea);
+}
