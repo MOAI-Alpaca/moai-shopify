@@ -27,3 +27,12 @@ featureDivs.forEach((div) => {
   div.innerHTML = updatedHtml;
 });
 
+// Adding opening times to the location drawer
+const targetElement = document.querySelector('.pickup-availability__location'); // Replace with your actual selector
+const newElement = document.createElement('div'); // Create your new element
+
+// Add content or attributes to your new element if needed
+newElement.textContent = 'Open from Monday through Friday, from 09:00 to 16:00.';
+
+// Insert the new element just before the closing tag of the target element
+targetElement.appendChild(newElement);
