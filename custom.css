@@ -9,7 +9,7 @@
 }
 
 /* Add button style to Board Finder in the header */
-.header__secondary-nav li:first-child {
+/* .header__secondary-nav li:first-child {
   padding-top: 12px;
 }
 .header__secondary-nav li:last-child {
@@ -24,4 +24,8 @@
   padding-block-end: var(--spacing-3);
   padding-inline-start: var(--spacing-6);
   padding-inline-end: var(--spacing-6);
+} */
+
+.header__secondary-nav li:second-child{
+  color: red;
 }
