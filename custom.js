@@ -34,5 +34,4 @@ const newElement = document.createElement('div'); // Create your new element
 // Add content or attributes to your new element if needed
 newElement.textContent = 'Open from Monday through Friday, from 09:00 to 16:00.';
 
-// Insert the new element just before the closing tag of the target element
-targetElement.appendChild(newElement);
+
