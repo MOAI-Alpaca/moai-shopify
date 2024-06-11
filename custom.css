@@ -9,10 +9,10 @@
 }
 
 /* Add button style to Board Finder in the header */
-/* .header__secondary-nav li:first-child {
+/* .header__main-nav li:first-child {
   padding-top: 12px;
 }
-.header__secondary-nav li:last-child {
+.header__main-nav li:last-child {
   background-color: rgb(var(--button-background));
   color: rgb(var(--button-text-color));
   border-radius: var(--rounded-button);
@@ -27,7 +27,7 @@
 } */
 
 /* Add green color for outlet */
-.header__secondary-nav li:first-child{
+.header__main-nav li:last-child{
   color: #00A341;
 }
 
