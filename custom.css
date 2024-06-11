@@ -39,5 +39,5 @@
 
 #trustpilot-widget-trustbox-2-wrapper,
 #CookiebotWidget{
-  z-index:1;
+  z-index: 1 !important;
 }
