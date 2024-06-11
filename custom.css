@@ -36,3 +36,8 @@
 .product-gallery__media img {
   background: linear-gradient(45deg, #fbf8f6, #f4edea);
 }
+
+#trustpilot-widget-trustbox-2-wrapper,
+#CookiebotWidget{
+  z-index:1;
+}
