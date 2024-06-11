@@ -27,7 +27,7 @@
 } */
 
 /* Add green color for outlet */
-.header__main-nav ul.contents li:last-child,
+.header__main-nav .contents > li:last-child a,
 .navigation-drawer ul.v-stack:first-child li:last-child{
   color: #00A341;
 }
