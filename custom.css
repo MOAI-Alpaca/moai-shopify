@@ -36,6 +36,14 @@
     border: 1px solid #00a341;
 }
 
+.header__main-nav .contents > li:last-child ul li:last-child a{
+    background: inherit;
+    color: inherit;
+    border-radius: inherit;
+    padding: inherit;
+    border: inherit;
+}
+
 /* Add background color for images */
 .product-gallery__media img {
   background: linear-gradient(45deg, #fbf8f6, #f4edea);
