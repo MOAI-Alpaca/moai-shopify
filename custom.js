@@ -34,4 +34,30 @@ const newElement = document.createElement('div'); // Create your new element
 // Add content or attributes to your new element if needed
 newElement.textContent = 'Open from Monday through Friday, from 09:00 to 16:00.';
 
+// NEW
+
+// Function to detect the user's country
+function getUserCountry() {
+    return fetch('https://ipapi.co/json/')
+        .then(response => response.json())
+        .then(data => data.country_code);
+}
+
+// Function to replace text
+function replaceText() {
+    const elements = document.querySelectorAll('*');
+    elements.forEach(element => {
+        if (element.children.length === 0 && element.textContent.includes('Fast & Free Shipping')) {
+            element.textContent = element.textContent.replace('Fast & Free Shipping', 'Example text');
+        }
+    });
+}
+
+// Check user's country and replace text if necessary
+getUserCountry().then(countryCode => {
+    if (countryCode === 'NL' || countryCode === 'DE') {
+        replaceText();
+    }
+});
+
 
