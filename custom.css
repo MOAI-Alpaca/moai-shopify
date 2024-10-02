@@ -27,14 +27,14 @@
 } */
 
 /* Add green color for outlet */
-.header__main-nav ul.contents:first-child > li:last-child a,
+/* .header__main-nav ul.contents:first-child > li:last-child a,
 .navigation-drawer ul.v-stack:first-child li:last-child{
     background: #00a341;
     color: white;
     border-radius: 999px;
     padding: 10px 16px;
     border: 1px solid #00a341;
-}
+} */
 
 /* Add background color for images */
 .product-gallery__media img {
