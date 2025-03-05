@@ -45,3 +45,7 @@
 #CookiebotWidget{
   z-index: 1 !important;
 }
+
+.essential-preorder-container-active button{
+  width: 100%;
+}
