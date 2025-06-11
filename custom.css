@@ -58,3 +58,11 @@
   border-radius: 15px;
   padding: 20px;
 }
+.aw-btn, pac-target-input{
+  border-radius: 0.5rem;
+  border-color: rgba(131, 101, 88, 0.12);
+  border-size: 1px;
+}
+.aw-topnav div{
+  font-size: 14px;
+}
