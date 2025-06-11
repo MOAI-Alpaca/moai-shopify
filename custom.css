@@ -61,7 +61,7 @@
 .aw-btn, pac-target-input, input[type="text"]{
   border-radius: 0.5rem;
   border-color: rgba(131, 101, 88, 0.12);
-  border-size: 1px;
+  background: white;
 }
 .aw-topnav div{
   font-size: 14px;
