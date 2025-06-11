@@ -67,3 +67,14 @@
 .aw-topnav div{
   font-size: 14px;
 }
+.aw-card{
+  box-shadow:none;
+  background: rgb(253, 249, 246);
+}
+.aw-card:nth-child(even){
+  background:#fef2e8;
+}
+.aw-card:hover{
+  box-shadow:none;
+  opacity: .8;
+}
