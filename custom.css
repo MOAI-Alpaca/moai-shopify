@@ -58,10 +58,11 @@
   border-radius: 15px;
   padding: 20px;
 }
-.aw-btn, pac-target-input, input[type="text"]{
+.aw-btn, pac-target-input, input[type="text"], #pac-input{
   border-radius: 0.5rem;
-  border-color: rgba(131, 101, 88, 0.12);
+  border: none;
   background: white;
+  padding: 5px 15px;
 }
 .aw-topnav div{
   font-size: 14px;
