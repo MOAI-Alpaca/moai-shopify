@@ -49,3 +49,12 @@
 .essential-preorder-container-active button{
   width: 100%;
 }
+
+.aw_store_locator {
+  padding-top: 80px;
+}
+.aw-topnav {
+  background: rgb(253, 249, 246);
+  border-radius: 15px;
+  padding: 20px;
+}
