@@ -60,4 +60,26 @@ getUserCountry().then(countryCode => {
     }
 });
 
+(function() {
+    const observer = new MutationObserver((mutations, obs) => {
+        const preOrderActive = document.querySelector('.essential-preorder-container-active');
+        const pickupBlock = document.querySelector('div[data-block-type="pickup-availability"]');
+
+        if (preOrderActive && pickupBlock) {
+            pickupBlock.remove();
+            console.log('Cleanup: Pickup block removed because pre-order is active.');
+            // Optional: Stop watching once the job is done
+            // obs.disconnect(); 
+        }
+    });
+
+    // Start watching the body for changes
+    observer.observe(document.body, {
+        childList: true,
+        subtree: true
+    });
+
+    // Safety timeout: stop looking after 5 seconds to save resources
+    setTimeout(() => observer.disconnect(), 5000);
+})();
 
