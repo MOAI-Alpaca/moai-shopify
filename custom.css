@@ -75,3 +75,26 @@
   box-shadow:none;
   opacity: .8;
 }
+
+a[href$="/collections/balance"] {
+  position: relative;
+}
+
+a[href$="/collections/balance"]::after {
+  content: "New Arrival";
+  position: absolute;
+  top: -0.75em;
+  left: 100%;
+  margin-left: 6px;
+  padding: 2px 6px;
+  background-color: #ff6b00;
+  color: #fff;
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  border-radius: 4px;
+  pointer-events: none;
+}
