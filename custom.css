@@ -81,13 +81,13 @@ a[href$="/collections/balance"] {
 }
 
 a[href$="/collections/balance"]::after {
-  content: "New Arrival";
+  content: "New";
   position: absolute;
-  top: -0.75em;
-  left: 100%;
+  top: -1.75em;
+  left: 59%;
   margin-left: 6px;
   padding: 2px 6px;
-  background-color: #ff6b00;
+  background-color: #ffab2d;
   color: #fff;
   font-size: 9px;
   font-weight: 700;
@@ -95,6 +95,6 @@ a[href$="/collections/balance"]::after {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   white-space: nowrap;
-  border-radius: 4px;
+  border-radius: 25px;
   pointer-events: none;
 }
